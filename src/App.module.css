@@ -1,0 +1,66 @@
+.body {
+    background-color: lightyellow;
+}
+
+.text {
+    text-align: center;
+    color: green;
+    font: 22px;
+}
+
+.heading {
+    background-color: lightblue;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.editor {
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+}
+
+.edit {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 1px solid black;
+    background-color: aqua;
+    text-align: center;
+}
+
+.preview {
+    border-radius: 25px;
+    border: 1px solid black;
+    width: fit-content;
+    margin: 10px;
+    text-align: center;
+}
+
+.view {
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.markdown {
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .markdown {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .editor {
+        width: 50%;
+    }
+
+    .preview {
+        width: fit-content;
+    }
+}
