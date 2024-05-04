@@ -60,7 +60,7 @@ function App() {
   return (
     <div>
      <div id='header' className={styles.heading}>
-      <h1 className={styles.text}>Markdown Previewer</h1>
+      <h1 className={styles.text}>Markdown-Previewer</h1>
      </div>
      <div id='Markdown Previewer' className={styles.markdown}>
       <div id='editorwrap' className={styles.editor}>
